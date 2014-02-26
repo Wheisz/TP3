@@ -163,8 +163,3 @@ function GetNomPromo($bdd, $idPromo)
        
     return $donnees['lib_promotion'];
 }
-
-function ScriptAjout()
-{
-    alert('Ajout réussi !');
-}

@@ -22,7 +22,6 @@ if (empty($_POST) == FALSE)
         if ($_POST['Intitulé'] !== '' && $_POST['Intitulé'] !== 'Intitulé' )
         {
             AjouterPromo($bdd);
-            ScriptAjout();
         }
         else
         {

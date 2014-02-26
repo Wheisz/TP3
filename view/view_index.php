@@ -13,9 +13,6 @@ and open the template in the editor.
     <body>
         <h1>IIA</h1>
         <form method="post" action="index.php" enctype="multipart/form-data">
-            <script>
-
-            </script>
             <div class="error">
                 <?php if (isset($TabError['Intitulé']))  echo $TabError['Intitulé'] ;?>
             </div>
